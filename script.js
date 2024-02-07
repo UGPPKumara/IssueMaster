@@ -12,7 +12,7 @@ function addIssue() {
     var issueList = document.getElementById("issue-list");
     var issueDiv = document.createElement("div");
     issueDiv.className = "issue";
-    issueDiv.innerHTML = `<strong>${issueName}</strong> <br> Priority: ${priority} <br>File: ${fileName}<br>
+    issueDiv.innerHTML = `<strong>${issueName}</strong> <br> <strong> Priority: </strong>${priority} <br><strong>File: </strong>${fileName}<br>
                           <button onclick="editIssue(this)" class="edit-button">Edit</button>
                           <button onclick="deleteIssue(this)" class="edit-button">Delete</button>`;
     issueList.appendChild(issueDiv);
