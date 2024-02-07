@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ISSUE MASTER</h1>
+        <p>
+            "Welcome to IssueMaster – where tracking issues is a breeze and smiles are priority! 🌈✨ Create, assign, and conquer tasks with the charm of simplicity. Because even the tiniest bugs deserve a cuddle on their way out. Join us and let's make project management a walk in the whimsical park! 🐾🌟</p>
+        <div class="issue-form">
+            <input type="text" id="issue-name" placeholder="Issue Name">
+            <select id="priority" class="issue-select">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <input type="file" id="file-upload">
+            <button onclick="addIssue()" >Add Issue</button>
+        </div>
+        <div id="issue-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    padding-top: 40px;
+}
+
+.container {
+    background-color: aquamarine;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    border: 2px solid gold;
+    text-align: center;
+    padding:40px 100px;
+    width: 80%;
+
+}
+.container p{
+    font-size: 20px;
+    color: white;
+}
+
+.container h1{
+    color: gold;
+}
+
+
+.issue-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.issue-form input , #priority {
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.issue {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 40px;
+    /* margin-left: 10px; */
+    max-width: 300px;
+}
+input[type="file" i] {
+    color: gold;
+}
+
+
+.issue-form button {
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: gold;
+    border:none;
+    font-weight: 700;  
+}
+.issue-form button:hover{
+    background-color: white;
+    transition-duration: 500ms;
+    border: none;
+}
+
+#issue-list{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.edit-button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
